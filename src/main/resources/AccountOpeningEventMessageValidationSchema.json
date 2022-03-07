@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "bsb": {
+      "type": "integer"
+    },
+    "identification": {
+      "type": "integer"
+    },
+    "openingDate": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "bsb",
+    "identification",
+    "openingDate"
+  ]
+}

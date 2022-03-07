@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "balanceDate": {
+      "type": "string"
+    },
+    "identification": {
+      "type": "integer"
+    },
+    "balance": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "balanceDate",
+    "identification",
+    "balance"
+  ]
+}
